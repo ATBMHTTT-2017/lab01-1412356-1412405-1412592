@@ -5,7 +5,7 @@
 Thành viên:
 * [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
 * [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
-* [ ] **MSSV3** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412592** Võ Hiếu Trung (VHTrung)
 
 ## Yêu cầu
 
