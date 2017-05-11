@@ -3,7 +3,7 @@
 **Name of your app** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
+* [ ] **1412356** Nguyễn Đào Thảo Nguyên (ndtnguyen)
 * [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
 * [ ] **1412592** Võ Hiếu Trung (VHTrung)
 
@@ -15,7 +15,7 @@ Yêu cầu **GIT**
 * [ ] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
-* [ ] Sử dụng GIT theo Gitflow Workflow.
+* [X] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **bắt buộc**
 * [ ] Viết script tạo cấu trúc cơ sở dữ liệu (**MSSV**)
