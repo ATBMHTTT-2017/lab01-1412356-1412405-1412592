@@ -123,3 +123,22 @@ INSERT INTO NHANVIEN
 )
 VALUES ('000001', 'Vũ Thành An', 'Q. 8, Tp. Hồ Chí Minh', 'vtan@fit.hcmus.edu.vn', NULL, NULL, 20000000);
 INSERT INTO NHANVIEN VALUES ('001001', 'Nguyễn Phúc Minh', 'Q. 5, Tp. Hồ Chí Minh', 'npminh@fit.hcmus.edu.vn', '001', '0010', 20000000);
+INSERT INTO NHANVIEN VALUES ('002001', 'Nguyễn Đào Thảo Nguyên', 'Q. 7, Tp. Hồ Chí Minh', 'ndtnguyen@fit.hcmus.edu.vn', '002', '0020', 30000000);
+INSERT INTO NHANVIEN VALUES ('003101', 'Nguyễn Hồng Phúc', 'Q. 10, Tp. Hồ Chí Minh', 'nhphuc@fit.hcmus.edu.vn', '003', '0031', 40000000);
+INSERT INTO NHANVIEN VALUES ('004001', 'Lữ Tâm Long', 'Q. 10, Tp. Hồ Chí Minh', 'ltlong@fit.hcmus.edu.vn', '004', '0040', 25000000);
+INSERT INTO NHANVIEN VALUES ('005101', 'Lê Minh Hiến', 'Q. 10, Tp. Hồ Chí Minh', 'nlmhien@fit.hcmus.edu.vn', '005', '0051', 25000000);
+INSERT INTO NHANVIEN VALUES ('001002', 'Nguyễn Huỳnh Ánh Thảo', 'Q.Bình Thạnh, Tp. Hồ Chí Minh', 'nhathao@fit.hcmus.edu.vn', '001', '0010', 50000000);
+INSERT INTO NHANVIEN VALUES ('002102', 'Trần Sỹ Anh', 'Q.BThanh, Tp. Hồ Chí Minh', 'tsanh@fit.hcmus.edu.vn', '002', '0021', 35000000);
+INSERT INTO NHANVIEN VALUES ('003002', 'Mai Đăng Khoa', 'Q.Phú Nhuận, Tp. Hồ Chí Minh', 'mdkhoa@fit.hcmus.edu.vn', '003', '0030', 18000000);
+INSERT INTO NHANVIEN VALUES ('004102', 'Nguyễn Đình Hiếu', 'Q.7, Tp. Hồ Chí Minh', 'ndhieu@fit.hcmus.edu.vn', '004', '0041', 22000000);
+INSERT INTO NHANVIEN VALUES ('005002', 'Lý Quốc Anh Duy', 'Q.7, Tp. Hồ Chí Minh', 'lqaduy@fit.hcmus.edu.vn', '005', '0050', 27000000);
+INSERT INTO NHANVIEN VALUES ('001103', 'Nguyễn Như Khoa', 'Q.7, Tp. Hồ Chí Minh', 'nnkhoa@fit.hcmus.edu.vn', '001', '0011', 25000000);
+INSERT INTO NHANVIEN VALUES ('002003', 'Đào Thị Thu Thảo', 'Q.7, Tp. Hồ Chí Minh', 'dttthao@fit.hcmus.edu.vn', '002', '0020', 30000000);
+INSERT INTO NHANVIEN VALUES ('003103', 'Huỳnh Bảo Huân', 'Q.10, Tp. Hồ Chí Minh', 'hbhuan@fit.hcmus.edu.vn', '003', '0031', 40000000);
+INSERT INTO NHANVIEN VALUES ('004003', 'Võ Anh Kiệt', 'Q.6, Tp. Hồ Chí Minh', 'vakiet@fit.hcmus.edu.vn', '004', '0040', 30000000);
+INSERT INTO NHANVIEN VALUES ('005103', 'Lê Dân', 'Q.3, Tp. Hồ Chí Minh', 'ldan@fit.hcmus.edu.vn', '005', '0051', 23000000);
+INSERT INTO NHANVIEN VALUES ('001004', 'Cao Băng Tâm', 'Q.5, Tp. Hồ Chí Minh', 'cbtam@fit.hcmus.edu.vn', '001', '0010', 35000000);
+INSERT INTO NHANVIEN VALUES ('002104', 'Tăng Gia Ngọc', 'Q.1, Tp. Hồ Chí Minh', 'tgngoc@fit.hcmus.edu.vn', '002', '0021', 32000000);
+INSERT INTO NHANVIEN VALUES ('003004', 'Đỗ Trần Trúc Thảo', 'Q.2, Tp. Hồ Chí Minh', 'dttructhao@fit.hcmus.edu.vn', '003', '0030', 29000000);
+INSERT INTO NHANVIEN VALUES ('004104', 'Hồ Khánh Việt Long', 'Q.3, Tp. Hồ Chí Minh', 'hkvlong@fit.hcmus.edu.vn', '004', '0041', 26000000);
+INSERT INTO NHANVIEN VALUES ('005004', 'Võ Thanh Tú', 'Q.7, Tp. Hồ Chí Minh', 'vttu@fit.hcmus.edu.vn', '005', '0050', 35000000);
