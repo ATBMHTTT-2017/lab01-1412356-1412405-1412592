@@ -4,7 +4,7 @@
 
 Thành viên:
 * [ ] **1412356** Nguyễn Đào Thảo Nguyên (ndtnguyen)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412405** Nguyễn Hồng Phúc (HongPhuc-1412405)
 * [ ] **1412592** Võ Hiếu Trung (VHTrung)
 
 ## Yêu cầu
