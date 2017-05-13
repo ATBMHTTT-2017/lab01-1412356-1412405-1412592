@@ -145,18 +145,18 @@ INSERT INTO NHANVIEN VALUES ('005004', 'Võ Thanh Tú', 'Q.7, Tp. Hồ Chí Mi
 
 UPDATE  CHINHANH SET truongChiNhanh = '001001' WHERE maCN = '001';
 UPDATE  CHINHANH SET truongChiNhanh = '002001' WHERE maCN = '002';
-UPDATE  CHINHANH SET truongChiNhanh = '003001' WHERE maCN = '003';
+UPDATE  CHINHANH SET truongChiNhanh = '003002' WHERE maCN = '003';
 UPDATE  CHINHANH SET truongChiNhanh = '004001' WHERE maCN = '004';
-UPDATE  CHINHANH SET truongChiNhanh = '005001' WHERE maCN = '005';
+UPDATE  CHINHANH SET truongChiNhanh = '005004' WHERE maCN = '005';
 
 UPDATE  PHONGBAN SET truongPhong = '001002' WHERE maPhong = '0010';
 UPDATE  PHONGBAN SET truongPhong = '001103' WHERE maPhong = '0011';
-UPDATE  PHONGBAN SET truongPhong = '002002' WHERE maPhong = '0020';
-UPDATE  PHONGBAN SET truongPhong = '002103' WHERE maPhong = '0021';
+UPDATE  PHONGBAN SET truongPhong = '002003' WHERE maPhong = '0020';
+UPDATE  PHONGBAN SET truongPhong = '002104' WHERE maPhong = '0021';
 UPDATE  PHONGBAN SET truongPhong = '003002' WHERE maPhong = '0030';
 UPDATE  PHONGBAN SET truongPhong = '003103' WHERE maPhong = '0031';
-UPDATE  PHONGBAN SET truongPhong = '004002' WHERE maPhong = '0040';
-UPDATE  PHONGBAN SET truongPhong = '004103' WHERE maPhong = '0041';
+UPDATE  PHONGBAN SET truongPhong = '004003' WHERE maPhong = '0040';
+UPDATE  PHONGBAN SET truongPhong = '004104' WHERE maPhong = '0041';
 UPDATE  PHONGBAN SET truongPhong = '005002' WHERE maPhong = '0050';
 UPDATE  PHONGBAN SET truongPhong = '005103' WHERE maPhong = '0051';
 UPDATE  PHONGBAN SET ngayNhanChuc = TO_DATE('2017/05/10', 'yyyy/mm/dd') ;
