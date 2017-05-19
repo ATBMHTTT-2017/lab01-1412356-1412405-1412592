@@ -1,4 +1,4 @@
 --5. Chỉ trưởng phòng, trưởng chi nhánh được cấp quyền thực thi stored procedure 
---cập nhật thông tin phòng ban của mình 
+--cập nhật thông tin phòng ban của mình (DAC).
 GRANT EXECUTE ON sp_capNhatPhongBan TO TruongPhong;
 GRANT EXECUTE ON sp_capNhatPhongBan TO TruongChiNhanh;
