@@ -127,43 +127,43 @@ INSERT INTO NHANVIEN VALUES ('GD000002', 'Đỗ Minh Tân', 'Q. 9, Tp. Hồ Chí
 INSERT INTO NHANVIEN VALUES ('GD000003', 'Mạc Văn Sơ', 'Q. 1, Tp. Hồ Chí Minh', 'mvso@fit.hcmus.edu.vn', NULL, NULL, 20000000);
 INSERT INTO NHANVIEN VALUES ('GD000004', 'Đinh Nguyên Hân', 'Q. 11, Tp. Hồ Chí Minh', 'dnhan@fit.hcmus.edu.vn', NULL, NULL, 20000000);
 INSERT INTO NHANVIEN VALUES ('GD000005', 'Trần Hồng Mỹ', 'Q. 12, Tp. Hồ Chí Minh', 'thmy@fit.hcmus.edu.vn', NULL, NULL, 20000000);
+
 INSERT INTO NHANVIEN VALUES ('TC001001', 'Nguyễn Phúc Minh', 'Q. 5, Tp. Hồ Chí Minh', 'npminh@fit.hcmus.edu.vn', '001', '0010', 20000000);
 INSERT INTO NHANVIEN VALUES ('TC002001', 'Nguyễn Đào Thảo Nguyên', 'Q. 7, Tp. Hồ Chí Minh', 'ndtnguyen@fit.hcmus.edu.vn', '002', '0020', 30000000);
 INSERT INTO NHANVIEN VALUES ('TC003001', 'Nguyễn Hồng Phúc', 'Q. 10, Tp. Hồ Chí Minh', 'nhphuc@fit.hcmus.edu.vn', '003', '0031', 40000000);
 INSERT INTO NHANVIEN VALUES ('TC004001', 'Lữ Tâm Long', 'Q. 10, Tp. Hồ Chí Minh', 'ltlong@fit.hcmus.edu.vn', '004', '0040', 25000000);
 INSERT INTO NHANVIEN VALUES ('TC005001', 'Lê Minh Hiến', 'Q. 10, Tp. Hồ Chí Minh', 'nlmhien@fit.hcmus.edu.vn', '005', '0051', 25000000);
+
 INSERT INTO NHANVIEN VALUES ('TP001002', 'Nguyễn Huỳnh Ánh Thảo', 'Q.Bình Thạnh, Tp. Hồ Chí Minh', 'nhathao@fit.hcmus.edu.vn', '001', '0010', 50000000);
 INSERT INTO NHANVIEN VALUES ('TP002002', 'Trần Sỹ Anh', 'Q.BThanh, Tp. Hồ Chí Minh', 'tsanh@fit.hcmus.edu.vn', '002', '0021', 35000000);
 INSERT INTO NHANVIEN VALUES ('TP003002', 'Mai Đăng Khoa', 'Q.Phú Nhuận, Tp. Hồ Chí Minh', 'mdkhoa@fit.hcmus.edu.vn', '003', '0030', 18000000);
 INSERT INTO NHANVIEN VALUES ('TP004002', 'Nguyễn Đình Hiếu', 'Q.7, Tp. Hồ Chí Minh', 'ndhieu@fit.hcmus.edu.vn', '004', '0041', 22000000);
 INSERT INTO NHANVIEN VALUES ('TP005002', 'Lý Quốc Anh Duy', 'Q.7, Tp. Hồ Chí Minh', 'lqaduy@fit.hcmus.edu.vn', '005', '0050', 27000000);
-INSERT INTO NHANVIEN VALUES ('TP001103', 'Nguyễn Như Khoa', 'Q.7, Tp. Hồ Chí Minh', 'nnkhoa@fit.hcmus.edu.vn', '001', '0011', 25000000);
-INSERT INTO NHANVIEN VALUES ('TP002103', 'Đào Thị Thu Thảo', 'Q.7, Tp. Hồ Chí Minh', 'dttthao@fit.hcmus.edu.vn', '002', '0021', 30000000);
-INSERT INTO NHANVIEN VALUES ('TP003103', 'Huỳnh Bảo Huân', 'Q.10, Tp. Hồ Chí Minh', 'hbhuan@fit.hcmus.edu.vn', '003', '0031', 40000000);
-INSERT INTO NHANVIEN VALUES ('TP004103', 'Võ Anh Kiệt', 'Q.6, Tp. Hồ Chí Minh', 'vakiet@fit.hcmus.edu.vn', '004', '0041', 30000000);
-INSERT INTO NHANVIEN VALUES ('TP005103', 'Lê Dân', 'Q.3, Tp. Hồ Chí Minh', 'ldan@fit.hcmus.edu.vn', '005', '0051', 23000000);
+
+INSERT INTO NHANVIEN VALUES ('TD001103', 'Nguyễn Như Khoa', 'Q.7, Tp. Hồ Chí Minh', 'nnkhoa@fit.hcmus.edu.vn', '001', '0011', 25000000);
+INSERT INTO NHANVIEN VALUES ('TD002103', 'Đào Thị Thu Thảo', 'Q.7, Tp. Hồ Chí Minh', 'dttthao@fit.hcmus.edu.vn', '002', '0021', 30000000);
+INSERT INTO NHANVIEN VALUES ('TD003103', 'Huỳnh Bảo Huân', 'Q.10, Tp. Hồ Chí Minh', 'hbhuan@fit.hcmus.edu.vn', '003', '0031', 40000000);
+INSERT INTO NHANVIEN VALUES ('TD004103', 'Võ Anh Kiệt', 'Q.6, Tp. Hồ Chí Minh', 'vakiet@fit.hcmus.edu.vn', '004', '0041', 30000000);
+INSERT INTO NHANVIEN VALUES ('TD005103', 'Lê Dân', 'Q.3, Tp. Hồ Chí Minh', 'ldan@fit.hcmus.edu.vn', '005', '0051', 23000000);
+
 INSERT INTO NHANVIEN VALUES ('NV001004', 'Cao Băng Tâm', 'Q.5, Tp. Hồ Chí Minh', 'cbtam@fit.hcmus.edu.vn', '001', '0010', 35000000);
 INSERT INTO NHANVIEN VALUES ('NV002004', 'Tăng Gia Ngọc', 'Q.1, Tp. Hồ Chí Minh', 'tgngoc@fit.hcmus.edu.vn', '002', '0021', 32000000);
 INSERT INTO NHANVIEN VALUES ('NV003004', 'Đỗ Trần Trúc Thảo', 'Q.2, Tp. Hồ Chí Minh', 'dttructhao@fit.hcmus.edu.vn', '003', '0030', 29000000);
 INSERT INTO NHANVIEN VALUES ('NV004004', 'Hồ Khánh Việt Long', 'Q.3, Tp. Hồ Chí Minh', 'hkvlong@fit.hcmus.edu.vn', '004', '0041', 26000000);
 INSERT INTO NHANVIEN VALUES ('NV005004', 'Võ Thanh Tú', 'Q.7, Tp. Hồ Chí Minh', 'vttu@fit.hcmus.edu.vn', '005', '0050', 35000000);
 
-UPDATE  CHINHANH SET truongChiNhanh = '001001' WHERE maCN = '001';
-UPDATE  CHINHANH SET truongChiNhanh = '002001' WHERE maCN = '002';
-UPDATE  CHINHANH SET truongChiNhanh = '003004' WHERE maCN = '003';
-UPDATE  CHINHANH SET truongChiNhanh = '004001' WHERE maCN = '004';
-UPDATE  CHINHANH SET truongChiNhanh = '005004' WHERE maCN = '005';
+UPDATE  CHINHANH SET truongChiNhanh = 'TC001001' WHERE maCN = '001';
+UPDATE  CHINHANH SET truongChiNhanh = 'TC002001' WHERE maCN = '002';
+UPDATE  CHINHANH SET truongChiNhanh = 'TC003001' WHERE maCN = '003';
+UPDATE  CHINHANH SET truongChiNhanh = 'TC004001' WHERE maCN = '004';
+UPDATE  CHINHANH SET truongChiNhanh = 'TC005001' WHERE maCN = '005';
 
-UPDATE  PHONGBAN SET truongPhong = '001002' WHERE maPhong = '0010';
-UPDATE  PHONGBAN SET truongPhong = '001103' WHERE maPhong = '0011';
-UPDATE  PHONGBAN SET truongPhong = '002003' WHERE maPhong = '0020';
-UPDATE  PHONGBAN SET truongPhong = '002104' WHERE maPhong = '0021';
-UPDATE  PHONGBAN SET truongPhong = '003002' WHERE maPhong = '0030';
-UPDATE  PHONGBAN SET truongPhong = '003103' WHERE maPhong = '0031';
-UPDATE  PHONGBAN SET truongPhong = '004003' WHERE maPhong = '0040';
-UPDATE  PHONGBAN SET truongPhong = '004104' WHERE maPhong = '0041';
-UPDATE  PHONGBAN SET truongPhong = '005002' WHERE maPhong = '0050';
-UPDATE  PHONGBAN SET truongPhong = '005103' WHERE maPhong = '0051';
+UPDATE  PHONGBAN SET truongPhong = 'TP001002' WHERE maPhong = '0010';
+UPDATE  PHONGBAN SET truongPhong = 'TP002002' WHERE maPhong = '0020';
+UPDATE  PHONGBAN SET truongPhong = 'TP003002' WHERE maPhong = '0030';
+UPDATE  PHONGBAN SET truongPhong = 'TP004002' WHERE maPhong = '0040';
+UPDATE  PHONGBAN SET truongPhong = 'TP005002' WHERE maPhong = '0050';
+
 UPDATE  PHONGBAN SET ngayNhanChuc = TO_DATE('2017/05/10', 'yyyy/mm/dd') ;
 
 INSERT INTO DUAN
@@ -177,11 +177,11 @@ INSERT INTO DUAN
  -- ,CONSTRAINT FK_DUAN_PHONGBAN FOREIGN KEY(phongChuTri) REFERENCES PHONGBAN(maPhong)ENABLE
   --,CONSTRAINT FK_DUAN_NHANVIEN FOREIGN KEY(truongDA) REFERENCES NHANVIEN(maNV) ENABLE
 )
-VALUES('001011', 'Chung cư tái định cư Thảo Điền, P.Thảo Điền, Quận 2', 432, '0011', 'TC001001');
-INSERT INTO DUAN VALUES('002012', 'Dự án khu nhà ở thu nhập thấp, P.Hiệp Thạnh, Quận 12', 123, '0020', 'TC002001');
-INSERT INTO DUAN VALUES('003033', ' Dự án khu đô thị mới Lê Minh Xuân, H.Bình Chánh', 501 ,'0031', 'TP003103');
-INSERT INTO DUAN VALUES('004014', 'Dự án NOXH tại số 35 Hồ Học Lãm, P.An Lạc, H.Bình Tân', 300, '0040', 'TC004001');
-INSERT INTO DUAN VALUES('005015', 'Dự án khu khu dân cư Minh Thành xã Thới Tam Thôn, H.Hóc Môn', 90 , '0051','TC005101');
+VALUES('001011', 'Chung cư tái định cư Thảo Điền, P.Thảo Điền, Quận 2', 432, '0011', 'TD001103');
+INSERT INTO DUAN VALUES('002012', 'Dự án khu nhà ở thu nhập thấp, P.Hiệp Thạnh, Quận 12', 123, '0021', 'TD002103');
+INSERT INTO DUAN VALUES('003033', ' Dự án khu đô thị mới Lê Minh Xuân, H.Bình Chánh', 501 ,'0031', 'TD003103');
+INSERT INTO DUAN VALUES('004014', 'Dự án NOXH tại số 35 Hồ Học Lãm, P.An Lạc, H.Bình Tân', 300, '0041', 'TD004103');
+INSERT INTO DUAN VALUES('005015', 'Dự án khu khu dân cư Minh Thành xã Thới Tam Thôn, H.Hóc Môn', 90 , '0051','TD005103');
 
 INSERT INTO CHITIEU
 (
@@ -192,11 +192,11 @@ INSERT INTO CHITIEU
   --,CONSTRAINT PK_CHITIEU PRIMARY KEY(maChiTieu) ENABLE
   --,CONSTRAINT FK_CHITIEU_DUAN FOREIGN KEY(duAn) REFERENCES DUAN(maDA) ENABLE
 )
-VALUES ('0010411', 'Mua nguyên vật liệu xây dựng', 320, '001041');
-INSERT INTO CHITIEU VALUES ('0021222', 'Tiền đền bù giải phóng mặt bằng', 30, '002122');
+VALUES ('0010411', 'Mua nguyên vật liệu xây dựng', 320, '001011');
+INSERT INTO CHITIEU VALUES ('0021222', 'Tiền đền bù giải phóng mặt bằng', 30, '002012');
 INSERT INTO CHITIEU VALUES ('0030333', 'Chi phí ăn uống của công nhân', 11, '003033');
-INSERT INTO CHITIEU VALUES ('0041244', 'Phụ cấp tăng ca của công nhân', 5, '004124');
-INSERT INTO CHITIEU VALUES ('0051155', 'Chi chí hỗ trợ chữa trị tai nạn lao động', 13, '005115');
+INSERT INTO CHITIEU VALUES ('0041244', 'Phụ cấp tăng ca của công nhân', 5, '004014');
+INSERT INTO CHITIEU VALUES ('0051155', 'Chi chí hỗ trợ chữa trị tai nạn lao động', 13, '005015');
 
 
 INSERT INTO PHANCONG
@@ -209,7 +209,7 @@ INSERT INTO PHANCONG
  -- ,CONSTRAINT FK_PHUCAP_DUAN FOREIGN KEY(duAn) REFERENCES DUAN(maDA) ENABLE
   --,CONSTRAINT FK_PHUCAP_NHANVIEN FOREIGN KEY(maNV) REFERENCES NHANVIEN(maNV) ENABLE
 )
-VALUES('000001', '001011', 'Phó trưởng dự án', 0.5);
+VALUES('TC001001', '001011', 'Phó trưởng dự án', 0.5);
 INSERT INTO PHANCONG VALUES ('TC002001', '002012', 'Ban quản lí dự án', 0.2);
 INSERT INTO PHANCONG VALUES ('TP001002', '003033', 'Nhân viên điều phối dự án', 0.1);
 INSERT INTO PHANCONG VALUES ('TP003002', '004014', 'Giám sát viên', 0.3);
