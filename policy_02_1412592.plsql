@@ -2,27 +2,28 @@
 --quản lý. Với những dự án không thuộc phòng ban của mình, các trưởng phòng được 
 --phép xem thông tin chi tiêu nhưng không được phép xem số tiền cụ thể (VPD).
 
-CREATE FUNCTION sec_chitieu
+CREATE OR REPLACE 
+FUNCTION sec_chitieu
 (
-  p_schema VARCHAR2,
-  p_object VARCHAR2
+  p_schema IN VARCHAR2,
+  p_object IN VARCHAR2
 )
 RETURN VARCHAR2
-AS
-  maNhanVien CHAR(6)
-  maPhong CHAR(4)
-BEGIN
-  IF (SYS_CONTEXT('userenv', 'ISDBA')) THEN
-    RETURN '';
+as
+  maPhong PHONGBAN.maPhong%TYPE;
+begin
+  IF FALSE THEN --(SYS_CONTEXT('USERENV', 'ISDBA')) THEN 
+    RETURN 'TRUE';
   ELSE
-    maNhanVien:= SYS_CONTEXT('userenv', 'SESSION_USER');
-    IF (maNV LIKE 'TP%')
-      maPhong := SELECT maPhong FROM NHANVIEN WHERE maNV = maNhanVien;      
+    IF (SYS_CONTEXT('userenv', 'SESSION_USER') LIKE 'TP%') THEN
+      SELECT maPhong INTO maPhong FROM NHANVIEN WHERE maNV = SYS_CONTEXT('userenv', 'SESSION_USER');      
       RETURN 'duAn IN (SELECT  maDA FROM DUAN WHERE phongChuTri =' || maPhong || ')';
     ELSE
-      RETURN 'FALSE'
+      RETURN 'FALSE';
+    END IF;
   END IF;
-END
+END;
 
 
-EXECUTE dbms_rls.add_policy ('', 'CHITIEU', '', 'sec_chitieu', 'soTien', dbms_rls.ALL_ROWS);
+
+--EXECUTE dbms_rls.add_policy ('', 'CHITIEU', '', 'sec_chitieu', 'soTien', dbms_rls.ALL_ROWS);
