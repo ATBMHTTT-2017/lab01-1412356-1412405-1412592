@@ -10,10 +10,16 @@ CREATE FUNCTION sec_chitieu
 RETURN VARCHAR2
 AS
   maNV CHAR(6)
+  maPhong CHAR(4)
 BEGIN
-  IF (SYS_CONTEXT('userenv', 'ISDBA)) THEN
+  IF (SYS_CONTEXT('userenv', 'ISDBA')) THEN
     RETURN '';
   ELSE
-    
+    maNV:= SYS_CONTEXT('userenv', 'SESSION_USER');
+    IF (maNV LIKE 'TP%')
+      maPhong := SELECT maPhong FROM NHANVIEN WHERE maNV = TRIM(LEADING 'TP' FROM maNV)
+      RETURN
+    ELSE
+      RETURN 'FALSE'
   END IF;
 END

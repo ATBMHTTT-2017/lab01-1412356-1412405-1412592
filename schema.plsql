@@ -192,11 +192,11 @@ INSERT INTO CHITIEU
   --,CONSTRAINT PK_CHITIEU PRIMARY KEY(maChiTieu) ENABLE
   --,CONSTRAINT FK_CHITIEU_DUAN FOREIGN KEY(duAn) REFERENCES DUAN(maDA) ENABLE
 )
-VALUES ('0010111', 'Mua nguyên vật liệu xây dựng', 320, '001011');
-INSERT INTO CHITIEU VALUES ('0020122', 'Tiền đền bù giải phóng mặt bằng', 30, '002012');
+VALUES ('0010411', 'Mua nguyên vật liệu xây dựng', 320, '001041');
+INSERT INTO CHITIEU VALUES ('0021222', 'Tiền đền bù giải phóng mặt bằng', 30, '002122');
 INSERT INTO CHITIEU VALUES ('0030333', 'Chi phí ăn uống của công nhân', 11, '003033');
-INSERT INTO CHITIEU VALUES ('0040144', 'Phụ cấp tăng ca của công nhân', 5, '004014');
-INSERT INTO CHITIEU VALUES ('0050155', 'Chi chí hỗ trợ chữa trị tai nạn lao động', 13, '005015');
+INSERT INTO CHITIEU VALUES ('0041244', 'Phụ cấp tăng ca của công nhân', 5, '004124');
+INSERT INTO CHITIEU VALUES ('0051155', 'Chi chí hỗ trợ chữa trị tai nạn lao động', 13, '005115');
 
 
 INSERT INTO PHANCONG
