@@ -177,11 +177,11 @@ INSERT INTO DUAN
  -- ,CONSTRAINT FK_DUAN_PHONGBAN FOREIGN KEY(phongChuTri) REFERENCES PHONGBAN(maPhong)ENABLE
   --,CONSTRAINT FK_DUAN_NHANVIEN FOREIGN KEY(truongDA) REFERENCES NHANVIEN(maNV) ENABLE
 )
-VALUES('001011', 'Chung cư tái định cư Thảo Điền, P.Thảo Điền, Quận 2', 432, '0011', '001001');
-INSERT INTO DUAN VALUES('002012', 'Dự án khu nhà ở thu nhập thấp, P.Hiệp Thạnh, Quận 12', 123, '0020', '002001');
+VALUES('001041', 'Chung cư tái định cư Thảo Điền, P.Thảo Điền, Quận 2', 432, '0010', '001004');
+INSERT INTO DUAN VALUES('002122', 'Dự án khu nhà ở thu nhập thấp, P.Hiệp Thạnh, Quận 12', 123, '0021', '002102');
 INSERT INTO DUAN VALUES('003033', ' Dự án khu đô thị mới Lê Minh Xuân, H.Bình Chánh', 501 ,'0031', '003103');
-INSERT INTO DUAN VALUES('004014', 'Dự án NOXH tại số 35 Hồ Học Lãm, P.An Lạc, H.Bình Tân', 300, '0040', '004001');
-INSERT INTO DUAN VALUES('005015', 'Dự án khu khu dân cư Minh Thành xã Thới Tam Thôn, H.Hóc Môn', 90 , '0051','005101');
+INSERT INTO DUAN VALUES('004124', 'Dự án NOXH tại số 35 Hồ Học Lãm, P.An Lạc, H.Bình Tân', 300, '0041', '004102');
+INSERT INTO DUAN VALUES('005115', 'Dự án khu khu dân cư Minh Thành xã Thới Tam Thôn, H.Hóc Môn', 90 , '0051','005101');
 
 INSERT INTO CHITIEU
 (
@@ -192,11 +192,11 @@ INSERT INTO CHITIEU
   --,CONSTRAINT PK_CHITIEU PRIMARY KEY(maChiTieu) ENABLE
   --,CONSTRAINT FK_CHITIEU_DUAN FOREIGN KEY(duAn) REFERENCES DUAN(maDA) ENABLE
 )
-VALUES ('0010111', 'Mua nguyên vật liệu xây dựng', 320, '001011');
-INSERT INTO CHITIEU VALUES ('0020122', 'Tiền đền bù giải phóng mặt bằng', 30, '002012');
+VALUES ('0010411', 'Mua nguyên vật liệu xây dựng', 320, '001041');
+INSERT INTO CHITIEU VALUES ('0021222', 'Tiền đền bù giải phóng mặt bằng', 30, '002122');
 INSERT INTO CHITIEU VALUES ('0030333', 'Chi phí ăn uống của công nhân', 11, '003033');
-INSERT INTO CHITIEU VALUES ('0040144', 'Phụ cấp tăng ca của công nhân', 5, '004014');
-INSERT INTO CHITIEU VALUES ('0050155', 'Chi chí hỗ trợ chữa trị tai nạn lao động', 13, '005015');
+INSERT INTO CHITIEU VALUES ('0041244', 'Phụ cấp tăng ca của công nhân', 5, '004124');
+INSERT INTO CHITIEU VALUES ('0051155', 'Chi chí hỗ trợ chữa trị tai nạn lao động', 13, '005115');
 
 
 INSERT INTO PHANCONG
@@ -209,8 +209,8 @@ INSERT INTO PHANCONG
  -- ,CONSTRAINT FK_PHUCAP_DUAN FOREIGN KEY(duAn) REFERENCES DUAN(maDA) ENABLE
   --,CONSTRAINT FK_PHUCAP_NHANVIEN FOREIGN KEY(maNV) REFERENCES NHANVIEN(maNV) ENABLE
 )
-VALUES('000001', '001011', 'Phó trưởng dự án', 0.5);
-INSERT INTO PHANCONG VALUES ('002001', '002012', 'Ban quản lí dự án', 0.2);
+VALUES('000001', '001041', 'Phó trưởng dự án', 0.5);
+INSERT INTO PHANCONG VALUES ('002001', '002122', 'Ban quản lí dự án', 0.2);
 INSERT INTO PHANCONG VALUES ('001002', '003033', 'Nhân viên điều phối dự án', 0.1);
-INSERT INTO PHANCONG VALUES ('003002', '004014', 'Giám sát viên', 0.3);
-INSERT INTO PHANCONG VALUES ('005002', '005015', 'Nhân viên hành chính dự án', 0.7);
+INSERT INTO PHANCONG VALUES ('003002', '004124', 'Giám sát viên', 0.3);
+INSERT INTO PHANCONG VALUES ('005002', '005115', 'Nhân viên hành chính dự án', 0.7);
