@@ -9,17 +9,20 @@ CREATE FUNCTION sec_chitieu
 )
 RETURN VARCHAR2
 AS
-  maNV CHAR(6)
+  maNhanVien CHAR(6)
   maPhong CHAR(4)
 BEGIN
   IF (SYS_CONTEXT('userenv', 'ISDBA')) THEN
     RETURN '';
   ELSE
-    maNV:= SYS_CONTEXT('userenv', 'SESSION_USER');
+    maNhanVien:= SYS_CONTEXT('userenv', 'SESSION_USER');
     IF (maNV LIKE 'TP%')
-      maPhong := SELECT maPhong FROM NHANVIEN WHERE maNV = TRIM(LEADING 'TP' FROM maNV)
-      RETURN
+      maPhong := SELECT maPhong FROM NHANVIEN WHERE maNV = maNhanVien;      
+      RETURN 'duAn IN (SELECT  maDA FROM DUAN WHERE phongChuTri =' || maPhong || ')';
     ELSE
       RETURN 'FALSE'
   END IF;
 END
+
+
+EXECUTE dbms_rls.add_policy ('', 'CHITIEU', '', 'sec_chitieu', 'soTien', dbms_rls.ALL_ROWS);
