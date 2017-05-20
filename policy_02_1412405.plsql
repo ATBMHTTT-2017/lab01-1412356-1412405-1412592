@@ -8,16 +8,16 @@ RETURN VARCHAR2
 AS
   maDA CHAR(6);
 begin
-  select mada into mada from sys.duan  where truongda = user;
-  return 'maDA= ' || mada ; 
+  select maDA into maDA from DUAN  where truongDA = user;
+  return 'maDA= ' || maDA ; 
 end;
+
 
 BEGIN
 dbms_rls.add_policy
-(object_schema => 'system',
+(object_schema => 'atbmhtttdba',
 object_name => 'ChiTieu',
 policy_name => 'S_U_ChiTieu',
-function_schema => 'system',
 policy_function => 'sec_qlChiTieu',
 statement_types => 'SELECT, UPDATE');
 END;
