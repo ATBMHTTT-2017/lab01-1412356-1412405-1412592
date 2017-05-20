@@ -15,7 +15,7 @@ BEGIN
 END;
 
 BEGIN DBMS_RLS.add_policy 
-(object_schema => 'MYDBA',
+(object_schema => 'ATBMHTTTDBA',
 object_name => 'NHANVIEN',
 policy_name => 'XemTTNVien',
 policy_function => 'vpd_nhanvien',
