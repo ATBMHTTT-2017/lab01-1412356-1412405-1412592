@@ -9,7 +9,7 @@ CREATE OR REPLACE PROCEDURE sp_capNhatPhongBan
 )
 AS
 BEGIN
-UPDATE CHINHANH
+UPDATE PHONGBAN
 SET tenPhong = tenPhongParam,
 		truongPhong = truongPhongParam,
 		ngayNhanChuc = ngayNhanChucParam,
