@@ -1,1 +1,2 @@
-SELECT * FROM atbmhtttdba.CHITIEU;
+ SELECT * FROM atbmhtttdba.CHITIEU;
+ 
