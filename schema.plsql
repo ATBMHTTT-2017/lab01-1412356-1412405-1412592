@@ -214,3 +214,6 @@ INSERT INTO PHANCONG VALUES ('TC002001', '002012', 'Ban quản lí dự án', 0.
 INSERT INTO PHANCONG VALUES ('TP001002', '003033', 'Nhân viên điều phối dự án', 0.1);
 INSERT INTO PHANCONG VALUES ('TP003002', '004014', 'Giám sát viên', 0.3);
 INSERT INTO PHANCONG VALUES ('TP005002', '005015', 'Nhân viên hành chính dự án', 0.7);
+
+
+

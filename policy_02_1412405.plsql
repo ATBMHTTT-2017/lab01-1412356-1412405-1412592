@@ -6,20 +6,23 @@ CREATE OR REPLACE FUNCTION sec_qlChiTieu
 )
 RETURN VARCHAR2
 AS
-  maDA DUAN.maDA%TYPE;
+  maDA CHAR(6);
+begin
+  select mada into mada from sys.duan  where truongda = user;
+  return 'maDA= ' || mada ; 
+end;
+
 BEGIN
-IF FALSE THEN
-    RETURN 'TRUE';
-  ELSE
-   IF (SYS_CONTEXT('userenv', 'SESSION_USER') LIKE 'TD%') THEN
-       SELECT maDA INTO maDA FROM DUAN  WHERE truongDA = SYS_CONTEXT('userenv', 'SESSION_USER');      
-      RETURN 'duAn = ' || maDA;
-    ELSE
-      RETURN 'FALSE';
-    END IF;
-  END IF;
+dbms_rls.add_policy
+(object_schema => 'system',
+object_name => 'ChiTieu',
+policy_name => 'S_U_ChiTieu',
+function_schema => 'system',
+policy_function => 'sec_qlChiTieu',
+statement_types => 'SELECT, UPDATE');
 END;
 
 
 --DROP FUNCTION sec_qlChiTieu;
-EXECUTE dbms_rls.add_policy('system', 'CHTIEU', 'policy', 'system' ,'sec_qlChiTieu', 'SELECT, UPDATE', dbms_rls.ALL_ROWS);
+--EXECUTE dbms_rls.add_policy('system', 'CHTIEU', 'policy', 'system' ,'sec_qlChiTieu', 'SELECT, UPDATE', dbms_rls.ALL_ROWS);
+
