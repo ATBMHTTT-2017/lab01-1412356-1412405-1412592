@@ -8,13 +8,14 @@ CREATE OR REPLACE PROCEDURE sp_capNhatPhongBan
   ,chiNhanhParam CHAR
 )
 AS
-BEGIN
+begin
+begin transaction;
 UPDATE PHONGBAN
 SET tenPhong = tenPhongParam,
 		truongPhong = truongPhongParam,
 		ngayNhanChuc = ngayNhanChucParam,
 		soNhanVien = soNhanVienParam,
 		chiNhanh = chiNhanhParam
-WHERE maPhong = maPhongParam;
-
+where maphong = maphongparam;
+commit;
 END;
