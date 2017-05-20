@@ -99,15 +99,15 @@ INSERT INTO PHONGBAN
   --,CONSTRAINT FK_PHONGBAN_CHINHANH FOREIGN KEY(chiNhanh) REFERENCES CHINHANH(maCN) ENABLE
 )
 VALUES ('0010', 'Phòng Nhân Sự', NULL, NULL, 2, '001');
-INSERT INTO PHONGBAN VALUES ('0011', 'Tài Chính', NULL, NULL, 1, '001');
-INSERT INTO PHONGBAN VALUES ('0020', 'Phòng Nhân Sự', NULL, NULL, 2, '002');
-INSERT INTO PHONGBAN VALUES ('0021', 'Tài Chính', NULL, NULL, 1, '002');
+insert into phongban values ('0011', 'Phòng Nhân Sự', null, null, 1, '001');
+insert into phongban values ('0020', 'Phòng Kế Toán', null, null, 2, '002');
+INSERT INTO PHONGBAN VALUES ('0021', 'Phòng Kế Hoạch', NULL, NULL, 1, '002');
 INSERT INTO PHONGBAN VALUES ('0030', 'Phòng Nhân Sự', NULL, NULL, 2, '003');
-INSERT INTO PHONGBAN VALUES ('0031', 'Tài Chính', NULL, NULL, 1, '003');
-INSERT INTO PHONGBAN VALUES ('0040', 'Phòng Nhân Sự', NULL, NULL, 2, '004');
-INSERT INTO PHONGBAN VALUES ('0041', 'Tài Chính', NULL, NULL, 1, '004');
-INSERT INTO PHONGBAN VALUES ('0050', 'Phòng Nhân Sự', NULL, NULL, 2, '005');
-INSERT INTO PHONGBAN VALUES ('0051', 'Tài Chính', NULL, NULL, 1, '005');
+INSERT INTO PHONGBAN VALUES ('0031', 'Phòng Kế Toán', NULL, NULL, 1, '003');
+insert into phongban values ('0040', 'Phòng Kế Hoạch', null, null, 2, '004');
+insert into phongban values ('0041', 'Phòng Nhân Sự', null, null, 1, '004');
+INSERT INTO PHONGBAN VALUES ('0050', 'Phòng Kế Toán', NULL, NULL, 2, '005');
+INSERT INTO PHONGBAN VALUES ('0051', 'Phòng Kế Hoạch', NULL, NULL, 1, '005');
 
 INSERT INTO NHANVIEN
 (
