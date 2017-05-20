@@ -14,7 +14,7 @@ as
 begin
   IF (SYS_CONTEXT('userenv', 'SESSION_USER') LIKE 'TP%') THEN
     SELECT maPhong INTO maPhong FROM NHANVIEN WHERE maNV = SYS_CONTEXT('userenv', 'SESSION_USER');      
-    RETURN 'duAn IN (SELECT  maDA FROM DUAN WHERE phongChuTri =' || maPhong || ')';
+    RETURN 'duAn IN (SELECT  maDA FROM DUAN WHERE phongChuTri =''' || maPhong || ''')';
   ELSE
     RETURN 'FALSE';
   END IF;
