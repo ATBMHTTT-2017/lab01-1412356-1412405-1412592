@@ -80,4 +80,5 @@ CREATE USER NV005004
 IDENTIFIED BY 005004;
 
 create user atbmhtttdba
-IDENTIFIED BY atbmhtttdba;
+identified by atbmhtttdba;
+grant dba to atbmhtttdba;
