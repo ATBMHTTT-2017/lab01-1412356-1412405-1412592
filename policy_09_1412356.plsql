@@ -125,3 +125,67 @@ short_name  => 'DN',
 group_num  => 70, 
 parent_name => 'TCT'); 
 END; 
+
+--tao nhan cho du lieu/ng dung
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 10000, 
+label_value => 'TT'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 20000, 
+label_value => 'GH'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 20010, 
+label_value => 'GH::TPHCM'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 20020, 
+label_value => 'GH::HN'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 20030, 
+label_value => 'GH::DN'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 21020, 
+label_value => 'GH:NS:TPHCM'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 22040, 
+label_value => 'GH:KH:HN,DN'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 34000, 
+label_value => 'BM:KH,KT'); 
+END;
+
+BEGIN   
+sa_label_admin.create_label 
+(policy_name => 'duan_ols', 
+label_tag => 39090, 
+label_value => 'BM:NS,KH,KT:TCT'); 
+END;
