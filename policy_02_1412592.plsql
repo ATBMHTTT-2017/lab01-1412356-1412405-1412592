@@ -10,11 +10,9 @@ function sec_xemchitieu
 )
 return varchar2
 as
-  maChiTieu chitieu.maChiTieu%type;
 begin
   if (user like 'TP%') then
-    select maChiTieu into maChiTieu from atbmhtttdba.CHITIEU where duAn in (select  maDA from atbmhtttdba.DUAN where phongChuTri  in (select maPhong from phongChuTri.NHANVIEN where maNV =  user));
-    return 'maChiTieu=' || q'[']' || maChiTieu || q'[']';
+    return 'duAn in (select  maDA from atbmhtttdba.DUAN where phongChuTri = (select maPhong from atbmhtttdba.NHANVIEN where maNV =  ''' ||user || '''))';
   else
     return 'FALSE';
   end if;
@@ -22,13 +20,14 @@ end;
 
 
 
+
 begin
   dbms_rls.add_policy (
   object_schema => 'atbmhtttdba',
   object_name => 'CHITIEU',
-  POLICY_NAME => 'policy_08',
-  policy_function => 'sec_xemchitieu',
+  policy_name => 'policy_08',
+  policy_function => 'sec_xemchitieu ',
   --statement_types => 'SELECT',
-  sec_relevant_cols => 'soTien',
+  sec_relevant_cols => 'soTien ',
   sec_relevant_cols_opt => dbms_rls. all_rows);
-END;
+end;

@@ -4,7 +4,7 @@
 
 begin
 dbms_rls.drop_policy(
-  object_schema => 'system',
+  object_schema => 'atbmhtttdba',
   object_name => 'CHITIEU',
   policy_name => 'policy_08');
 end;
@@ -14,8 +14,13 @@ begin
   object_schema => 'atbmhtttdba',
   object_name => 'CHITIEU',
   policy_name => 'policy_08',
-  policy_function => 'sec_chitieu ',
+  policy_function => 'sec_xemchitieu ',
   --statement_types => 'SELECT',
   sec_relevant_cols => 'soTien ',
   sec_relevant_cols_opt => dbms_rls. all_rows);
 END;
+
+select * from ATBMHTTTDBA.CHITIEU;
+select user from DUAL;
+
+select * from ATBMHTTTDBA.CHITIEU;
