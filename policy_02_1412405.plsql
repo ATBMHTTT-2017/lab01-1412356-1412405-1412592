@@ -6,8 +6,8 @@ FUNCTION sec_qlChiTieu
     p_object VARCHAR2
 )
 RETURN VARCHAR2
-AS
-  duan varchar(6);
+as
+  duAn CHAR(6);
 BEGIN
   SELECT maDA INTO duAn FROM atbmhtttdba.DUAN  WHERE truongDA = USER;
   RETURN 'duAn='|| q'[']' || duAn || q'[']';
