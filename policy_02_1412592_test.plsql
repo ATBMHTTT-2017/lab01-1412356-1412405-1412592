@@ -9,6 +9,7 @@ dbms_rls.drop_policy(
   policy_name => 'policy_08');
 end;
 
+
 begin
   dbms_rls.add_policy (
   object_schema => 'atbmhtttdba',
@@ -20,7 +21,7 @@ begin
   sec_relevant_cols_opt => dbms_rls. all_rows);
 END;
 
-select * from ATBMHTTTDBA.CHITIEU;
+
 select user from DUAL;
 
 select * from ATBMHTTTDBA.CHITIEU;
