@@ -20,8 +20,8 @@ Yêu cầu **GIT**
 Yêu cầu **bắt buộc**
 * [x] Viết script tạo cấu trúc cơ sở dữ liệu (**1412592**)
 * [x] Viết script thêm dữ liệu (**1412356-1412405-1412592**)
-* [x] Tạo tài khoản cho các nhân viên trong bảng Nhân Viên. Tên tài khoản trùng với mã nhân viên. Tạo ít nhất 5 tài khoản cho mỗi vị trí: trưởng dự án, trưởng phòng, trưởng chi nhánh, nhân viên, giám đốc và ít nhất 5 dòng cho các bảng dữ liệu còn lại. (**MSSV**)
-* [x] Tạo các role cho các vị trí phù hợp cho công ty. (**MSSV**)
+* [x] Tạo tài khoản cho các nhân viên trong bảng Nhân Viên. Tên tài khoản trùng với mã nhân viên. Tạo ít nhất 5 tài khoản cho mỗi vị trí: trưởng dự án, trưởng phòng, trưởng chi nhánh, nhân viên, giám đốc và ít nhất 5 dòng cho các bảng dữ liệu còn lại. (**1412356**)
+* [x] Tạo các role cho các vị trí phù hợp cho công ty. (**1412405**)
 * [x] Chỉ trưởng phòng được phép cập nhật và thêm thông tin vào dự án (DAC). (**1412356**)
 * [x] Giám đốc được phép xem thông tin dự án gồm (mã dự án, tên dự án, kinh phí, tên phòng chủ trì, tên chi nhánh chủ trì, tên trưởng dự án và tổng chi) (DAC). (**1412405**)
 * [x] Chỉ trưởng phòng, trưởng chi nhánh được cấp quyền thực thi stored procedure cập nhật thông tin phòng ban của mình (DAC). (**1412592**)
