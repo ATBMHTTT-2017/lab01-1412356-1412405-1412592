@@ -1,4 +1,4 @@
---Tất cả nhân viên bình thường (trừ trưởng phòng, trưởng chi nhánh và các trưởng dự án) chỉ được phép xem thông tin nhân viên 
+--6.Tất cả nhân viên bình thường (trừ trưởng phòng, trưởng chi nhánh và các trưởng dự án) chỉ được phép xem thông tin nhân viên 
 --trong phòng của mình, chỉ được xem lương của bản thân (VPD).
 
 CREATE FUNCTION vpd_nhanvien
