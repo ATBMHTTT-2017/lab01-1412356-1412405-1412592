@@ -2,29 +2,33 @@
 --quản lý. Với những dự án không thuộc phòng ban của mình, các trưởng phòng được 
 --phép xem thông tin chi tiêu nhưng không được phép xem số tiền cụ thể (VPD).
 
-CREATE OR REPLACE 
-FUNCTION SEC_CHITIEU
+create or replace 
+function sec_xemchitieu
 (
-  p_schema IN VARCHAR2,
-  p_object IN VARCHAR2
+  p_schema in varchar2,
+  p_object in varchar2
 )
-RETURN VARCHAR2
+return varchar2
 as
-  maPhong PHONGBAN.maPhong%TYPE;
+  maChiTieu chitieu.maChiTieu%type;
 begin
-  IF (SYS_CONTEXT('userenv', 'SESSION_USER') LIKE 'TP%') THEN
-    SELECT maPhong INTO maPhong FROM NHANVIEN WHERE maNV = SYS_CONTEXT('userenv', 'SESSION_USER');      
-    RETURN 'duAn IN (SELECT  maDA FROM DUAN WHERE phongChuTri =''' || maPhong || ''')';
-  ELSE
-    RETURN 'FALSE';
-  END IF;
+  if (user like 'TP%') then
+    select maChiTieu into maChiTieu from atbmhtttdba.CHITIEU where duAn in (select  maDA from atbmhtttdba.DUAN where phongChuTri  in (select maPhong from phongChuTri.NHANVIEN where maNV =  user));
+    return 'maChiTieu=' || q'[']' || maChiTieu || q'[']';
+  else
+    return 'FALSE';
+  end if;
+end;
+
+
+
+begin
+  dbms_rls.add_policy (
+  object_schema => 'atbmhtttdba',
+  object_name => 'CHITIEU',
+  POLICY_NAME => 'policy_08',
+  policy_function => 'sec_xemchitieu',
+  --statement_types => 'SELECT',
+  sec_relevant_cols => 'soTien',
+  sec_relevant_cols_opt => dbms_rls. all_rows);
 END;
-
-
-
-EXECUTE DBMS_RLS.ADD_POLICY ('system', 
-                                                                      'CHITIEU', 
-                                                                      'policy_08', 
-                                                                      'sec_chitieu', 
-                                                                      'soTien', 
-                                                                      dbms_rls.ALL_ROWS);
