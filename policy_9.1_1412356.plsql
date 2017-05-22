@@ -12,7 +12,7 @@ IDENTIFIED BY hrsec;
 BEGIN
 sa_sysdba.create_policy 
 (policy_name => 'duan_ols',
-column_name => 'DUAN');
+column_name => 'olscol');
 END;
 
 GRANT duan_ols_dba TO sec_admin; 
