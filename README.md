@@ -1,6 +1,6 @@
-# BT-ATBMHTTT-1 - *Name of your app*
+# BT-ATBMHTTT-1 - *Phân quyền cơ sở dữ liệu*
 
-**Name of your app** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
+**Phân quyền cơ sở dữ liệu** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
 Thành viên:
 * [ ] **1412356** Nguyễn Đào Thảo Nguyên (ndtnguyen)
