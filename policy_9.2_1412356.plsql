@@ -49,15 +49,15 @@ UPDATE atbmhtttdba.DUAN
 SET atbmhtttdba.DUAN.duan = char_to_label ('duan_ols', 'GH'); 
 
 UPDATE atbmhtttdba.DUAN
-SET duan = char_to_label ('duan_ols','GH::TPHCM')
+SET olscol = char_to_label ('duan_ols','GH::TPHCM')
 WHERE phongchutri LIKE '001%'; 
 
 UPDATE atbmhtttdba.DUAN
-SET duan = char_to_label ('duan_ols','GH::HN')
+SET olscol = char_to_label ('duan_ols','GH::HN')
 WHERE phongchutri LIKE '002%';
 
 UPDATE atbmhtttdba.DUAN
-SET duan = char_to_label ('duan_ols','GH::DN')
+SET olscol = char_to_label ('duan_ols','GH::DN')
 WHERE phongchutri LIKE '003%';
 
 BEGIN sa_policy_admin.remove_table_policy 
