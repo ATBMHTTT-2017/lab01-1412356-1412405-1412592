@@ -79,3 +79,12 @@ table_options   => 'READ_CONTROL,WRITE_CONTROL,CHECK_CONTROL');
 END;
 
 --3/GAN LABEL CHO USER (connect as hr_sec)
+BEGIN sa_user_admin.set_user_labels 
+(policy_name => 'duan_ols', 
+user_name       => 'TC003001', 
+max_read_label => 'BM:NS', 
+max_write_label => 'BM:NS', 
+min_write_label => 'GH', 
+def_label   => 'BM:NS', 
+row_label  => 'BM:NS'); 
+END; 
