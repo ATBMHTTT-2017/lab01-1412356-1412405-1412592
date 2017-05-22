@@ -14,7 +14,7 @@ begin
   if (user like 'TP%') then
     return 'duAn in (select  maDA from atbmhtttdba.DUAN where phongChuTri = (select maPhong from atbmhtttdba.NHANVIEN where maNV =  ''' ||user || '''))';
   else
-    return 'FALSE';
+    return '1 > 2';
   end if;
 end;
 
