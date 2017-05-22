@@ -215,5 +215,36 @@ INSERT INTO PHANCONG VALUES ('TP001002', '003033', 'Nhân viên điều phối d
 INSERT INTO PHANCONG VALUES ('TP003002', '004014', 'Giám sát viên', 0.3);
 INSERT INTO PHANCONG VALUES ('TP005002', '005015', 'Nhân viên hành chính dự án', 0.7);
 
+---GRANT ROLE TO USER
+GRANT TruongPhong to TP001002;
+GRANT TruongPhong to TP002002;
+GRANT TruongPhong to TP003002;
+GRANT TruongPhong to TP004002;
+GRANT TruongPhong to TP005002;
+
+GRANT GiamDoc to GD000001;
+GRANT GiamDoc to GD000002;
+GRANT GiamDoc to GD000003;
+GRANT GiamDoc to GD000004;
+GRANT GiamDoc to GD000005;
+
+GRANT TruongDuAn to TD001103;
+GRANT TruongDuAn to TD002103;
+GRANT TruongDuAn to TD003103;
+GRANT TruongDuAn to TD004103;
+GRANT TruongDuAn to TD005103;
+
+GRANT TruongChiNhanh to TC001001;
+GRANT TruongChiNhanh to TC002001;
+GRANT TruongChiNhanh to TC003001;
+GRANT TruongChiNhanh to TC004001;
+GRANT TruongChiNhanh to TC005001;
+
+GRANT NhanVien to NV001004;
+GRANT NhanVien to NV002004;
+GRANT NhanVien to NV003004;
+GRANT NhanVien to NV004004;
+GRANT NhanVien to NV005004;
+
 
 
